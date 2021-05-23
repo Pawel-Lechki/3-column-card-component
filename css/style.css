@@ -126,3 +126,21 @@ footer {
     text-align: center; 
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1440px;
+    }
+    .cards{
+        flex-direction: row;
+    }
+    .card{
+        padding: 60px;
+    }
+    .card p{
+        padding-right: 50px;
+    }
+    .btn {
+        margin-top: 100px;
+    }
+}
