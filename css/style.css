@@ -4,6 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* variables */
+html {
+    --orange: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --dark-cyan: hsl(179, 100%, 13%);
+    --paragraphs-color: hsla(0, 0%, 100%, 0.75);
+    --light-color: hsl(0, 0%, 95%);
+}
 
 /* utilitis */
 .container {
@@ -11,16 +19,63 @@
     margin: 0 auto;
 }
 
+.bg-orange {
+    background-color: var(--orange);
+}
+.bg-cyan {
+    background-color: var(--cyan);
+}
+.bg-dark-cyan {
+    background-color: var(--dark-cyan);
+}
+.bg-light{
+    background-color: var(--light-color);
+}
+.orange{
+    color: var(--orange);
+}
+.cyan{
+    color: var(--cyan);
+}
+.dark-cyan{
+    color: var(--dark-cyan);
+}
+
 .content{
     margin-top: 200px;
 }
 
+body {
+    font-size: 15px;
+}
+
+/* cards */
 .cards {
     width: 100%;
 }
-
+/* card */
 .card {
     width: 100%;
+    padding: 20px;
+}
+
+.card .icon {
+    padding: 20px 0;
+}
+
+.card h2 { 
+    display: inline-block;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.card p{ 
+    padding: 20px 0; 
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 40px;
 }
 /* footer */
 footer {
