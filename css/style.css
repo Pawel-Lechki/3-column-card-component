@@ -11,7 +11,7 @@ html {
     --dark-cyan: hsl(179, 100%, 13%);
     --paragraphs-color: hsla(0, 0%, 100%, 0.75);
     --light-color: hsl(0, 0%, 95%);
-    --primary-fonmt: 'Lexend Deca', sans-serif;;
+    --primary-font: 'Lexend Deca', sans-serif;;
     --secoundary-font: 'Big Shoulders Display', cursive;
 }
 
@@ -51,6 +51,9 @@ html {
 .secoundary-font{
     font-family: var(--secoundary-font);
 }
+.paragraphs-color{
+    color: var(--paragraphs-color);
+}
 
 .content{
     margin-top: 100px;
@@ -78,10 +81,13 @@ body {
     display: inline-block;
     margin: 20px 0;
     text-transform: uppercase;
+    font-size: 2.5rem;
 }
 
 .card p{ 
     padding: 20px 0; 
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
 
 .btn {
@@ -91,6 +97,7 @@ body {
     text-decoration: none;
     padding: 20px 30px;
     border-radius: 30px;
+    font-size: 1.2rem;
 }
 /* footer */
 footer {
