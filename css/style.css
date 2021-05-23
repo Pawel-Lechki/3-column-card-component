@@ -11,6 +11,8 @@ html {
     --dark-cyan: hsl(179, 100%, 13%);
     --paragraphs-color: hsla(0, 0%, 100%, 0.75);
     --light-color: hsl(0, 0%, 95%);
+    --primary-fonmt: 'Lexend Deca', sans-serif;;
+    --secoundary-font: 'Big Shoulders Display', cursive;
 }
 
 /* utilitis */
@@ -42,6 +44,12 @@ html {
 }
 .light{
     color: var(--light-color);
+}
+.primary-font{
+    font-family: var(--primary-font);
+}
+.secoundary-font{
+    font-family: var(--secoundary-font);
 }
 
 .content{
