@@ -4,6 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* utilitis */
+.container {
+    max-width: 345px;
+    margin: 0 auto;
+}
+
+.content{
+    margin-top: 200px;
+}
+
+.cards {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
 /* footer */
 footer {
     position: relative;
