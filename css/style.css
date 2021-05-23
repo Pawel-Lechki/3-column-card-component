@@ -64,6 +64,7 @@ html {
     border-bottom-right-radius: var(--radius);
 }
 
+
 .content{
     margin-top: 100px;
 }
@@ -109,6 +110,26 @@ body {
     padding: 20px 30px;
     border-radius: 30px;
     font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+/* hover efekt */
+.btn1:hover{
+    color: var(--light-color);
+    background-color: var(--orange);
+    border: 1px solid var(--light-color);
+}
+
+.btn2:hover{
+    color: var(--light-color);
+    background-color: var(--cyan);
+    border: 1px solid var(--light-color);
+}
+
+.btn3:hover{
+    color: var(--light-color);
+    background-color: var(--dark-cyan);
+    border: 1px solid var(--light-color);
 }
 /* footer */
 footer {
